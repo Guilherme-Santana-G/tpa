@@ -16,16 +16,17 @@ public class soma {
 		for(i=0; i<5; i++) {
 			System.out.println("Entre com o "+(i+1)+" valor do vetor A.");
 			a[i] = in.nextInt();
-			
+		}
 			//declarando b
-			for(i=0; i<5; i++) {
+			for(i=0; i<TAM; i++) {
 				System.out.println("Entre com o "+(i+1)+" valor do vetor B.");
 				b[i] = in.nextInt();
+				//ciando a soma
+				c[i] = a[i]+b[i];
 		}
-		System.out.print("\nB[] = [ ");
-		for(i=0; i<5; i++) {
-			System.out.print(a[i]+"  ");
-			c[] = a[i] + b[i] ;
+		System.out.print("\nc[] = [ ");
+		for(i=0; i<TAM; i++) {
+			System.out.print(c[i]+"  ");
 		}System.out.print(" ]");
 		
 	}

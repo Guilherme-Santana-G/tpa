@@ -1,4 +1,4 @@
-package listae;
+package listaVetor;
 import java.util.Scanner;
 public class quadrado {
 
